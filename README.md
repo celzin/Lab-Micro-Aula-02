@@ -36,16 +36,16 @@ void loop(){
 ```
 
 <p align="center">
-<img src="imgs/aula02-01.png" width="600"/> 
+<img src="imgs/aula2-01.png" width="600"/> 
 </p>
 <p align="center">
-<em>Figura 1: . </em>
+<em>Figura 1: Captura de tela do exercicio 1 implementado.</em>
 </p>
 
 <div align=center>
+Link do projeto: 
 
-[![Wokwi Link](wokwi.png)](https://wokwi.com/projects/394246208386606081)
-
+[![Wokwi Link](imgs/wokwi.png)](https://wokwi.com/projects/394246208386606081)
 </div>
   
 ## Exercício 2
@@ -101,11 +101,17 @@ void loop() {
 ```
 
 <p align="center">
-<img src="imgs/aula02-02.png" width="600"/> 
+<img src="imgs/aula2-02.png" width="600"/> 
 </p>
 <p align="center">
-<em>Figura 2: . </em>
+<em>Figura 2: Captura de tela do exercicio 2 implementado.</em>
 </p>
+
+<div align=center>
+Link do projeto: 
+
+[![Wokwi Link](imgs/wokwi.png)](https://wokwi.com/projects/394246440396651521)
+</div>
 
 ## Exercício 3
 
@@ -142,11 +148,17 @@ void displayNumber9() {
 ```
 
 <p align="center">
-<img src="imgs/aula02-03.png" width="600"/> 
+<img src="imgs/aula2-03.png" width="600"/> 
 </p>
 <p align="center">
-<em>Figura 3: . </em>
+<em>Figura 3: Captura de tela do exercicio 3 implementado.</em>
 </p>
+
+<div align=center>
+Link do projeto: 
+
+[![Wokwi Link](imgs/wokwi.png)](https://wokwi.com/projects/394250545029975041)
+</div>
 
 ## Exercício 4
 
@@ -211,21 +223,14 @@ void updateDisplay(int number) {
 ```
 
 <p align="center">
-<img src="imgs/aula02-04.png" width="600"/> 
+<img src="imgs/aula2-04.gif" width="600"/> 
 </p>
 <p align="center">
-<em>Figura 4: . </em>
+<em>Figura 4: GIF do exercicio 4 implementado.</em>
 </p>
 
-## 📞 Contato
+<div align=center>
+Link do projeto: 
 
-<table align="center">
-  <tr>
-    <th>Participante</th>
-    <th>Contato</th>
-  </tr>
-  <tr>
-    <td>Celso</td>
-    <td><a href="https://t.me/celso_vsf"><img align="center" height="20px" width="90px" src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/> </td>
-  </tr>
-</table>
+[![Wokwi Link](imgs/wokwi.png)](https://wokwi.com/projects/394250655260491777)
+</div>
