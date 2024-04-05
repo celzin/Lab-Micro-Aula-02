@@ -4,12 +4,24 @@
   <img align="center" alt="Markdown" src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" />
 </div>
 
-##
+<br>
 
-- Professor: Diego Ascanio 
-- Disciplina: Lab. de Microcontroladores e Microprocessadores
-- Aluno: Celso Vinícius Sudário 
-- Matrícula: 20203003611
+<table align="center" style="width:100%">
+<thead>
+  <tr>
+    <td rowspan="3" style="width:200px;"><img src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Logo_CEFET-MG.png" width="200" height="200"></td>
+    <td colspan="2" style="text-align:center;">Centro Federal de Educação Tecnológica de Minas Gerais</td>
+  </tr>
+  <tr>
+    <td>Professor: Diego Ascanio</td>
+    <td>Disciplina: Lab. de Micro</td>
+  </tr>
+  <tr>
+    <td>Aluno: Celso Vinícius Sudário</td>
+    <td>Matrícula: 20203003611</td>
+  </tr>
+</thead>
+</table>
 
 ## Exercício 01
 
