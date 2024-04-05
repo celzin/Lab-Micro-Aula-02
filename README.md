@@ -5,23 +5,23 @@
 </div>
 
 <br>
-
-<table align="center" style="width:100%">
+<div align="center">
+  
+<table>
 <thead>
   <tr>
-    <td rowspan="3" style="width:200px;"><img src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Logo_CEFET-MG.png" width="200" height="200"></td>
-    <td colspan="2" style="text-align:center;">Centro Federal de Educação Tecnológica de Minas Gerais</td>
-  </tr>
-  <tr>
+    <td rowspan="2"><img src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Logo_CEFET-MG.png" alt="Image" width="200" height="200"></td>
     <td>Professor: Diego Ascanio</td>
     <td>Disciplina: Lab. de Micro</td>
   </tr>
   <tr>
-    <td>Aluno: Celso Vinícius Sudário</td>
-    <td>Matrícula: 20203003611</td>
+    <td>Aluno: <code>Celso Vinícius Sudário</code></td>
+    <td>Matrícula: <code>20203003611</code></td>
   </tr>
 </thead>
 </table>
+
+</div>
 
 ## Exercício 01
 
@@ -55,9 +55,7 @@ void loop(){
 </p>
 
 <div align=center>
-Link do projeto: 
-
-[![Wokwi Link](imgs/wokwi.png)](https://wokwi.com/projects/394246208386606081)
+Link do projeto: https://wokwi.com/projects/394246208386606081
 </div>
   
 ## Exercício 2
@@ -120,9 +118,7 @@ void loop() {
 </p>
 
 <div align=center>
-Link do projeto: 
-
-[![Wokwi Link](imgs/wokwi.png)](https://wokwi.com/projects/394246440396651521)
+Link do projeto: https://wokwi.com/projects/394246440396651521
 </div>
 
 ## Exercício 3
@@ -167,9 +163,7 @@ void displayNumber9() {
 </p>
 
 <div align=center>
-Link do projeto: 
-
-[![Wokwi Link](imgs/wokwi.png)](https://wokwi.com/projects/394250545029975041)
+Link do projeto: https://wokwi.com/projects/394250545029975041
 </div>
 
 ## Exercício 4
@@ -242,7 +236,5 @@ void updateDisplay(int number) {
 </p>
 
 <div align=center>
-Link do projeto: 
-
-[![Wokwi Link](imgs/wokwi.png)](https://wokwi.com/projects/394250655260491777)
+Link do projeto: https://wokwi.com/projects/394250655260491777
 </div>
