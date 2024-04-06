@@ -23,7 +23,7 @@
 
 </div>
 
-## Exercício 01
+## Exercício 1
 
 <div align="justify">
 
