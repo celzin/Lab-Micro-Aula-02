@@ -72,8 +72,8 @@ const int buttonPin2 = 5;
 const int ledRed = 2;     
 const int ledGreen = 3;   
 
+bool lastButtonState1 = LOW;
 bool lastButtonState2 = LOW;
-bool isRedLedOn = false;
 
 void setup() {
   pinMode(buttonPin1, INPUT);
@@ -86,24 +86,17 @@ void loop() {
   bool currentButtonState1 = digitalRead(buttonPin1);
   bool currentButtonState2 = digitalRead(buttonPin2);
 
-  if (currentButtonState1 == HIGH) {
-    digitalWrite(ledRed, HIGH);
-    digitalWrite(ledGreen, LOW);
-    isRedLedOn = true; 
-  } 
+  if (currentButtonState1 == HIGH && lastButtonState1 == LOW) {
+    digitalWrite(ledRed, HIGH); 
+    digitalWrite(ledGreen, LOW); 
+  }
   
   if (currentButtonState2 == HIGH && lastButtonState2 == LOW) {
-    // Alterna os LEDs
-    if (isRedLedOn) {
-      digitalWrite(ledRed, LOW);
-      digitalWrite(ledGreen, HIGH);
-      isRedLedOn = false; 
-    } else {
-      digitalWrite(ledRed, HIGH);
-      digitalWrite(ledGreen, LOW);
-      isRedLedOn = true; 
-    }
+    digitalWrite(ledRed, LOW);
+    digitalWrite(ledGreen, HIGH); 
   }
+
+  lastButtonState1 = currentButtonState1;
   lastButtonState2 = currentButtonState2;
 
   delay(50);
