@@ -31,6 +31,14 @@ Simule o circuito Olá Mundo com o Arduino no Wokwi.
 
 </div>
 
+### Resolução
+
+<div align="justify">
+
+Nesta soluçãoo, é simulado um simples circuito "Olá Mundo" utilizando um Arduino conectado a um display LCD via I2C. O código incorpora a biblioteca `LiquidCrystal_I2C` para facilitar a comunicação com o LCD, mostrando como um texto pode ser facilmente exibido em um LCD com o Arduino.
+
+</div>
+
 ```C++
 #include <LiquidCrystal_I2C.h>
 
@@ -63,6 +71,14 @@ Link do projeto: https://wokwi.com/projects/394246208386606081
 <div align="justify">
 
 Projete um circuito com Arduino conectando a ele dois botões, um LED vermelho e um LED verde. Em seguida faça um programa em que quando um botão é pressionado o LED vermelho acende e o verde fica apagado. Quando o outro botão é pressionado os LEDs se alternam.
+
+</div>
+
+### Resolução
+
+<div align="justify">
+
+O programa define pinos para os LEDs e botões, configurando-os apropriadamente como entrada ou saída. No loop principal, ele verifica o estado dos botões: quando um botão é pressionado, o `ledRed` acende e o `ledGreen` apaga; ao pressionar o outro botão, os LEDs alternam seus estados. Isso é conseguido lendo os estados atuais dos botões, comparando-os com os estados anteriores para detectar uma transição de baixo para alto, e então ajustando os LEDs de acordo. Um `delay` é adicionado para estabilizar as leituras dos botões.
 
 </div>
 
@@ -122,6 +138,14 @@ Projete um circuito com o Arduino e um display de 7 segmentos, utilizando os pin
 
 </div>
 
+### Resolução
+
+<div align="justify">
+
+Neste exercício, foi criado um circuito utilizando o Arduino e um display de 7 segmentos, com os segmentos de “a” a “g” conectados aos pinos digitais de 0 a 6, respectivamente. Para programar o Arduino para exibir o número 9 no display, o código inicia definindo os pinos dos segmentos como saídas no `setup()`. A função `displayNumber9()` é então chamada para acionar os segmentos apropriados: todos, exceto o segmento "e" (pin 4), são ativados (HIGH), configurando o display para mostrar o número 9. O `loop()` é deixado vazio, pois a exibição do número 9 é estática, não necessitando de atualizações contínuas.
+
+</div>
+
 ```C++
 const int segmentPins[] = {0, 1, 2, 3, 4, 5, 6}; 
 
@@ -164,6 +188,14 @@ Link do projeto: https://wokwi.com/projects/394250545029975041
 <div align="justify">
 
 Adicione 2 botões ao circuito do exercício anterior e faça um programa onde uma contagem de 0 a 9 é apresentada no display. O número apresentado deve aumentar ou diminuir conforme os botões são pressionados, um botão aumenta e outro diminui o número apresentado no display.
+
+</div>
+
+### Resolução
+
+<div align="justify">
+
+O programa define pinos para os segmentos do display e para os botões de incremento e decremento. Uma matriz `numbers` armazena os estados necessários dos segmentos para representar os números de 0 a 9. A lógica principal, dentro do `loop()`, verifica o estado dos botões: se o botão de incremento é pressionado, o número atual aumenta, enquanto que o botão de decremento reduz o número. Caso os limites de 0 ou 9 sejam ultrapassados, a contagem é reiniciada no limite oposto. A função `updateDisplay` é chamada para atualizar o display com o número atual, acendendo ou apagando os segmentos conforme necessário.
 
 </div>
 
