@@ -257,7 +257,7 @@ void updateDisplay(int number) {
 <img src="imgs/aula2-04.gif" width="600"/> 
 </p>
 <p align="center">
-<em>Figura 4: GIF do exercicio 4 implementado.</em>
+<em>Figura 4: Captura de tela do exercicio 4 implementado.</em>
 </p>
 
 <div align=center>
