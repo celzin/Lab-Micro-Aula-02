@@ -35,7 +35,7 @@ Simule o circuito Olá Mundo com o Arduino no Wokwi.
 
 <div align="justify">
 
-Nesta soluçãoo, é simulado um simples circuito "Olá Mundo" utilizando um Arduino conectado a um display LCD via I2C. O código incorpora a biblioteca `LiquidCrystal_I2C` para facilitar a comunicação com o LCD, mostrando como um texto pode ser facilmente exibido em um LCD com o Arduino.
+Nesta solução, é simulado um simples circuito "Olá Mundo" utilizando um Arduino conectado a um display LCD via I2C. O código incorpora a biblioteca `LiquidCrystal_I2C` para facilitar a comunicação com o LCD, mostrando como um texto pode ser facilmente exibido em um LCD com o Arduino.
 
 </div>
 
@@ -78,7 +78,7 @@ Projete um circuito com Arduino conectando a ele dois botões, um LED vermelho e
 
 <div align="justify">
 
-O programa define pinos para os LEDs e botões, configurando-os apropriadamente como entrada ou saída. No loop principal, ele verifica o estado dos botões: quando um botão é pressionado, o `ledRed` acende e o `ledGreen` apaga; ao pressionar o outro botão, os LEDs alternam seus estados. Isso é conseguido lendo os estados atuais dos botões, comparando-os com os estados anteriores para detectar uma transição de baixo para alto, e então ajustando os LEDs de acordo. Um `delay` é adicionado para estabilizar as leituras dos botões.
+O programa define pinos para os LEDs e botões, configurando-os apropriadamente como entrada ou saída. No loop principal, ele verifica o estado dos botões: quando um botão é pressionado, o `ledRed` acende e o `ledGreen` apaga; ao pressionar o outro botão, os LEDs alternam seus estados. Isso é conseguido lendo os estados atuais dos botões, comparando-os com os estados anteriores para detectar uma transição de `LOW` para `HIGH`, e então ajustando os LEDs de acordo. Um `delay` é adicionado para estabilizar as leituras dos botões.
 
 </div>
 
